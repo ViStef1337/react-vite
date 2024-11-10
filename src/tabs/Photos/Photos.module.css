@@ -1,0 +1,7 @@
+.div{
+    background-color: #202123; /* глибокий темно-сірий фон */
+    color: #e4e4e7; /* світлий текст */
+    min-height: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}

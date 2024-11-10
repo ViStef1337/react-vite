@@ -1,0 +1,44 @@
+.board{
+    display: flex;
+    flex-direction: column;
+
+    width: 500px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+
+    box-shadow: var(--shadow-regular);
+    border-radius: 16px;
+    background-color: var(--color-white);
+}
+.header{
+    display: flex;
+    justify-content: flex-end; /* Переміщує елемент праворуч */
+    background-color: lightblue;
+}
+.title{
+    display: flex;
+    justify-content: center; /* Вирівнює по горизонталі */
+    align-items: center;
+    flex-direction: column;
+    margin-right: 50px;
+}
+.list{
+    display: flex;
+    justify-content: center; /* Вирівнює по горизонталі */
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.item{
+    width: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 10px 20px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    padding: 30px;
+    gap: 30px;
+}

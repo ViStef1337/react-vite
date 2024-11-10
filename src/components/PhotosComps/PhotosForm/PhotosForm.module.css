@@ -1,0 +1,29 @@
+
+.form{
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form__input{
+    margin-right: 10px;
+    border-radius: 5px ;
+    background-color: #343541; /* темно-сірий фон */
+    color: #d1d5db; /* світло-сірий текст */
+    outline: none;  /* Видаляє обводку */
+    border: none;   /* Видаляє рамку (якщо потрібно) */
+    padding: 5px 10px 5px 10px;
+}
+
+.form__btn{
+    outline: none;  /* Видаляє обводку */
+    border: none;   /* Видаляє рамку (якщо потрібно) */
+    background-color: #3a3b3e; /* Трохи світліший за #2a2b2e */
+    color: #e4e4e7;            /* Світлий текст */
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    padding: 3px 10px 3px 10px;
+}
+
